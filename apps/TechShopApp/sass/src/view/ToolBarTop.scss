@@ -1,14 +1,212 @@
-
-.link a{
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	color: white;
-	text-decoration: none;
-}
-.link a:visited{
-	color:white;
+.mainfont {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: white;
 }
 
-.link a:hover{
-	color: red;
+.mainfontbl {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: black;
+}
+
+.txtleft {
+  text-align: end;
+}
+
+.link a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+}
+
+.link a:visited {
+  color: white;
+}
+
+.categbtn {
+  background-color: rgb(250, 167, 25);
+  text-decoration: none;
+}
+
+.menuItem {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.menuItem:active {
+  color: white;
+}
+
+.menuItemAct {
+  background-color: #fdd38d;
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.menuItem:focus {
+  color: white;
+}
+
+.menuItemMain {
+  background-color: white;
+}
+
+.menuItem a {
+  color: white;
+  height: 38px;
+  line-height: 38px;
+  align-content: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.menuItem a span {
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menuItem a span div {
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 2px;
+  font-weight: bold;
+  color: black;
+  font-family: sans-serif;
+  font-size: 16px;
+
+}
+
+.menuItem:hover a span div {
+  color: black;
+  font-weight: bold;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.menuItem:hover {
+  background-color: #fdd38d;
+}
+
+.categbtn:active {
+  background-color: rgb(250, 167, 25);
+}
+
+.categbtn:focus {
+  background-color: rgb(250, 167, 25);
+}
+
+.categbtn:hover {
+  background-color: rgb(227, 151, 19);
+  cursor: pointer;
+}
+
+.link a:hover {
+  color: red;
+}
+
+.btnarrow {
+  color: black;
+}
+.transpbtn:hover .geo {
+  color: red;
+}
+.transpbtn, .transpbtn:focus{
+  background-color: transparent !important;
+  border: none;
+}
+.transpbtn:focus{
+  background-color: transparent !important;
+  border: none;
+  box-shadow: none;
+}
+
+.boldtxt {
+  font-weight: bold;
+}
+
+.searchField {
+  display: table;
+  width: 100%;
+  height: 100%;
+  border: 1px lightgrey solid;
+
+}
+
+.searchField div {
+  min-width: 36px;
+  background-color: #e1e1e1;
+}
+.dataview-item{
+  width: 272px;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  height: 500px;
+  background-color: white;
+}
+.searchField:focus {
+  border: 1px orange solid;
+}
+.descrTop{
+  padding: 24px;
+
+}
+.panelBorder .x-panel-bodyWrap{
+  border: lightgrey 1px solid;
+}
+
+.searchField:focus-within {
+  border: 1px orange solid;
+}
+
+.searchField:focus-within div {
+  background-color: orange;
+}
+
+.linkOrange {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
+.linkOrange:hover {
+  color: orange;
+}
+
+.cartOrange a span {
+  color: rgba(0, 0, 0, .66);
+  display: inline-block;
+  align-content: center;
+  vertical-align: middle;
+  padding-bottom: 15px;
+  padding-left: 8px;
+
+}
+
+.cartOrange:hover a span img {
+  width: 26px;
+  height: 26px;
+}
+
+.cartOrange:hover a span {
+  color: orange;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.searchFieldTxt div input {
+  font-weight: 500;
+  padding: 10px 15px 8px 10px;
+  font-family: Roboto,sans-serif;
+  font-size: 16px;
+  color: black;
 }

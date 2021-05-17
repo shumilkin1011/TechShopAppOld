@@ -6,11 +6,12 @@ Ext.define('TechShopApp.view.ToolBarTop',
             type: 'hbox',
             align: 'stretch',
         },
-        border: true,
+        border: false,
         height: 38,
         bodyStyle: {
-            background: '#fc9d14',
+            background: '#212121',
         },
+
         items: [
             {
                 xtype: 'container',
@@ -19,7 +20,7 @@ Ext.define('TechShopApp.view.ToolBarTop',
                     type: 'hbox',
                     align: 'stretch'
                 },
-                padding: '0 24 0 24',
+                padding: '0 24 0 17',
                 items: [
                     {
                         xtype: 'container',
@@ -31,45 +32,25 @@ Ext.define('TechShopApp.view.ToolBarTop',
                         },
                         items: [
                             {
-                                xtype: 'label',
-                                cls: 'link',
-                                html: "<b><a class='link' href='#id2'>test1</a></b>",
-                            }
-                        ]
-                    },
-                    {
-                        flex: 4,
-                        xtype: 'container',
+                                xtype: 'button',
+                                cls: 'transpbtn',
+                                border: false,
+                                height: 24,
+                                html: '<span style="display:inline-block; align-content: center; padding-bottom: 3px; vertical-align: middle"><img  alt="geo" width="24px" height="24px" src="https://psv4.userapi.com/c537232/u150226562/docs/d4/a88efecfc37b/fluent_location-12-filled.png"></span>'+
+                                    '<span class="mainfont geo" style="display:inline-block; align-content: center; vertical-align: middle;padding-bottom: 6px; padding-left: 8px" style="padding-left: 16px;text-align: center">Нижегородская область</span>'
 
-                        layout: {
-                            type: 'hbox',
-                            align: 'middle',
-                            pack: 'center'
-                        },
-                        items: [
-                            {
-                                xtype: 'label',
-                                margin: '0 20 0 20',
-                                cls: 'link',
-                                html: `<a href="#test">test1</a>`,
-                            },
-                            {
-                                xtype: 'label',
-                                margin: '0 20 0 20',
-                                cls: 'link',
-                                html: `<a href="#test">test1</a>`,
                             },
                             {
                                 xtype: 'label',
                                 cls: 'link',
-                                margin: '0 20 0 20',
-                                html: `<a href="#test">test1</a>`,
-                            }
+                                margin: '0 24 0 24',
+                                html: `<a href="#id2">Адреса магазинов</a>`,
+                            },
                         ]
                     },
                     {
                         xtype: 'container',
-                        flex: 2,
+                        width: '25%',
                         layout: {
                             type: 'hbox',
                             align: 'middle',
@@ -78,8 +59,9 @@ Ext.define('TechShopApp.view.ToolBarTop',
                         items: [
                             {
                                 xtype: 'label',
-                                cls: 'link',
-                                html: `<a href="#test">test1</a>`,
+                                width: 200,
+                                cls: 'link txtleft',
+                                html: `<a href="#id2">Личный кабинет</a>`,
                             }
                         ]
                     }

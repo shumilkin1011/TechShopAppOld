@@ -14,6 +14,14 @@
   text-align: end;
 }
 
+.logo img {
+  width: 160px;
+  height: 60px;
+}
+.logo:hover img {
+  cursor: pointer;
+  opacity: 0.6;
+}
 .link a {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -25,11 +33,29 @@
   color: white;
 }
 
-.categbtn {
+.categbtn, .categbtnover .categbtn:active,.categbtn:focus{
   background-color: rgb(250, 167, 25);
   text-decoration: none;
+  overflow: hidden;
+  border: none;
+  box-shadow: none;
 }
-
+.categbtn:hover {
+  background-color: rgb(251,182,65);
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
+}
+.categbtn span .x-btn-inner{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  overflow: hidden;
+}
+.categbtn:hover span .x-btn-inner{
+  text-shadow: 0 0 4px yellow;
+}
 .menuItem {
   width: 100%;
   text-align: center;
@@ -96,18 +122,6 @@
   background-color: #fdd38d;
 }
 
-.categbtn:active {
-  background-color: rgb(250, 167, 25);
-}
-
-.categbtn:focus {
-  background-color: rgb(250, 167, 25);
-}
-
-.categbtn:hover {
-  background-color: rgb(227, 151, 19);
-  cursor: pointer;
-}
 
 .link a:hover {
   color: red;
@@ -116,14 +130,17 @@
 .btnarrow {
   color: black;
 }
+
 .transpbtn:hover .geo {
   color: red;
 }
-.transpbtn, .transpbtn:focus{
+
+.transpbtn, .transpbtn:focus {
   background-color: transparent !important;
   border: none;
 }
-.transpbtn:focus{
+
+.transpbtn:focus {
   background-color: transparent !important;
   border: none;
   box-shadow: none;
@@ -145,22 +162,36 @@
   min-width: 36px;
   background-color: #e1e1e1;
 }
-.dataview-item{
+
+.dataview-item:hover {
+  box-shadow: 1px 1px 25px 10px orange;
+  cursor: pointer;
+}
+
+.dataview-item {
   width: 272px;
-  display: block;
+  flex: 0.33;
+  min-width: 220px;
+  max-width: 300px;
+  border: lightgray 1px solid;
+  display: inline-block;
+  margin: 0 20px 20px 0;
   padding: 20px;
   text-align: center;
   height: 500px;
   background-color: white;
 }
+
 .searchField:focus {
   border: 1px orange solid;
 }
-.descrTop{
+
+.descrTop {
   padding: 24px;
 
 }
-.panelBorder .x-panel-bodyWrap{
+
+.panelBorder .x-panel-bodyWrap {
   border: lightgrey 1px solid;
 }
 
@@ -206,7 +237,7 @@
 .searchFieldTxt div input {
   font-weight: 500;
   padding: 10px 15px 8px 10px;
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   color: black;
 }

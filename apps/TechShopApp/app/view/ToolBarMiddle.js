@@ -24,14 +24,15 @@ Ext.define('TechShopApp.view.ToolBarMiddle',
                     {
                         xtype: 'label',
                         flex: 1,
+                        cls: 'logo',
                         //inputType: 'search',
                         minWidth: 140,
                         maxWidth: 160,
                         width: 160,
                         margin: '0 48 0 24',
                         height: 60,
-                        html: '<a href="http://localhost:1841/apps/TechShopApp/">' +
-                            '<img src="https://hobbygames.ru/assets/img/svg/logo.svg" alt="logo" width="160" height="60">' +
+                        href: 'http://localhost:1841/apps/TechShopApp/',
+                        html: '<img src="https://hobbygames.ru/assets/img/svg/logo.svg" alt="logo">' +
                             '</a>',
 
                     },

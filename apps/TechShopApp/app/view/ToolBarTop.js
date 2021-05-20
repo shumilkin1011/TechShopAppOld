@@ -36,7 +36,7 @@ Ext.define('TechShopApp.view.ToolBarTop',
                                 cls: 'transpbtn',
                                 border: false,
                                 height: 24,
-                                html: '<span style="display:inline-block; align-content: center; padding-bottom: 3px; vertical-align: middle"><img  alt="geo" width="24px" height="24px" src="https://psv4.userapi.com/c537232/u150226562/docs/d4/a88efecfc37b/fluent_location-12-filled.png"></span>'+
+                                html: '<span style="display:inline-block; align-content: center; padding-bottom: 3px; vertical-align: middle"><img  alt="geo" width="24px" height="24px" src="https://psv4.userapi.com/c537232/u150226562/docs/d4/121b6245d392/fluent_location-12-filled.png?extra=3r5EfOWqZal9XtYMhmG3q0DGExyDSq7hKvygO43zeBVUz6H_Jn5k436muwpaHpWGxQN-CAY07OJAkXZUp1uSSFIfvMGxj5gAc7AK-ewfzomXJbU03NTzporuvHsJQobWp9asfF7dyNvA8f8GQlQ90g"></span>'+
                                     '<span class="mainfont geo" style="display:inline-block; align-content: center; vertical-align: middle;padding-bottom: 6px; padding-left: 8px" style="padding-left: 16px;text-align: center">Нижегородская область</span>'
 
                             },

@@ -18,10 +18,12 @@
   width: 160px;
   height: 60px;
 }
+
 .logo:hover img {
   cursor: pointer;
   opacity: 0.6;
 }
+
 .link a {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
@@ -33,29 +35,33 @@
   color: white;
 }
 
-.categbtn, .categbtnover .categbtn:active,.categbtn:focus{
+.categbtn, .categbtnover .categbtn:active, .categbtn:focus {
   background-color: rgb(250, 167, 25);
   text-decoration: none;
   overflow: hidden;
   border: none;
   box-shadow: none;
 }
+
 .categbtn:hover {
-  background-color: rgb(251,182,65);
+  background-color: rgb(251, 182, 65);
   cursor: pointer;
   overflow: hidden;
   transition: all 0.4s ease 0s;
 }
-.categbtn span .x-btn-inner{
+
+.categbtn span .x-btn-inner {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   color: black;
   font-weight: bold;
   overflow: hidden;
 }
-.categbtn:hover span .x-btn-inner{
+
+.categbtn:hover span .x-btn-inner {
   text-shadow: 0 0 4px yellow;
 }
+
 .menuItem {
   width: 100%;
   text-align: center;
@@ -169,23 +175,48 @@
 }
 
 .dataview-item {
-  width: 272px;
-  flex: 0.33;
-  min-width: 220px;
-  max-width: 300px;
+  flex: 1;
+  min-width: 250px;
   border: lightgray 1px solid;
   display: inline-block;
-  margin: 0 20px 20px 0;
+  margin: 0 24px 24px 0;
   padding: 20px;
   text-align: center;
   height: 500px;
   background-color: white;
 }
 
+.categoryList {
+  margin: 24px 24px 0 24px;
+  height: fit-content;
+  padding: 10px;
+  border: 1px lightgrey solid;
+}
+
+.categoryTitle {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.categoryItem {
+  height: 30px;
+  font-size: 14px;
+  display: inline-block;
+  color: rgba(0,0,0,.87);
+  padding: 7px 0;
+}
+
 .searchField:focus {
   border: 1px orange solid;
 }
-
+.categoryDesc{
+  font-size: 14px;
+  float: left;
+  color: #484644;
+  font-weight: 400;
+  font-family: Roboto,sans-serif;
+}
 .descrTop {
   padding: 24px;
 

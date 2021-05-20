@@ -15,6 +15,7 @@ Ext.define('TechShopApp.view.main.Main', {
             layout: {
                 type: 'vbox',
                 align: 'stretch',
+                pack: 'center'
             },
             scrollable: {
                 y: 'scroll'
@@ -28,6 +29,7 @@ Ext.define('TechShopApp.view.main.Main', {
                     layout: {
                         type: 'vbox',
                         align: 'stretch',
+                        pack: 'center'
                     },
                     items: [
                         {
@@ -46,6 +48,7 @@ Ext.define('TechShopApp.view.main.Main', {
                 },
                 {
                     xtype: 'mainpage',
+
                 }
 
             ]

@@ -5,18 +5,19 @@ Ext.define('TechShopApp.view.MainPage', {
 
         layout: {
             type: 'vbox',
-            align: 'stretch'
+            align: 'stretch',
+            pack: 'center'
         },
         style: {
-            'background': '#f1f1f1'
+            'background': '#f1f1f1',
         },
 
         items: [
             {
-                xtype: 'categorydesc'
+                xtype: 'categorydesc',
             },
             {
-                xtype: 'mainpagecontent'
+                xtype: 'mainpagecontent',
             }
         ]
     }

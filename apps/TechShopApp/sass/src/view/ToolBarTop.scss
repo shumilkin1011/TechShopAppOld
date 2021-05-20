@@ -157,15 +157,19 @@
 }
 
 .searchField {
-  display: table;
+  display: flex;
   width: 100%;
   height: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
   border: 1px lightgrey solid;
 
 }
 
-.searchField div {
-  min-width: 36px;
+.searchField .x-form-text-wrap {
+  flex:1;
   background-color: #e1e1e1;
 }
 
@@ -173,20 +177,72 @@
   box-shadow: 1px 1px 25px 10px orange;
   cursor: pointer;
 }
-
+.itemName{
+  color: #151528;
+  text-decoration: none;
+}
+.priceTag{
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  color: #151528;
+  font-family: "PT Sans","Helvetica","Arial",sans-serif;
+}
+.priceDiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+}
+.priceRubble{
+  font-weight: bold;
+  margin-left: 4px;
+  font-size: 24px;
+  font-family: "PT Sans","Helvetica","Arial",sans-serif;
+  color: #151528;
+}
+.cartButton{
+  display: inline-flex;
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  border-radius: 100px;
+  white-space: nowrap;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid orange;
+  background-color: orange;
+  color: white;
+  width: 36px;
+  height: 36px;
+  min-width: 20px;
+  min-height: 20px;
+}
+.priceTagSale{
+  color: red;
+  font-size: 24px;
+}
 .dataview-item {
   flex: 1;
   min-width: 250px;
+  max-width: 350px;
   border: lightgray 1px solid;
-  display: inline-block;
+  display: flex;
   margin: 0 24px 24px 0;
   padding: 20px;
   text-align: center;
-  height: 500px;
+  height: auto;
   background-color: white;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .categoryList {
+  flex: 1;
   margin: 24px 24px 0 24px;
   height: fit-content;
   padding: 10px;
@@ -194,17 +250,29 @@
 }
 
 .categoryTitle {
+  margin: 5px 0 0 5px;
   font-weight: bold;
   font-size: 16px;
   padding: 5px;
 }
-
-.categoryItem {
-  height: 30px;
+.categoryItem:hover a{
+  color: red;
+  cursor: pointer;
+}
+.categoryItem:hover{
+  opacity: 0.90;
+  cursor: pointer;
+}
+.categoryItem a {
+  text-decoration: none;
+  word-break: break-word;
+  white-space: normal;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   display: inline-block;
   color: rgba(0,0,0,.87);
-  padding: 7px 0;
+  margin: -2px 0;
+  padding: 4px 0;
 }
 
 .searchField:focus {

@@ -1,343 +1,3 @@
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
-.x-tab-default-right-mc {
-    padding: 8px 10px 8px 10px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1603 */
-.x-tab-default {
-    border-color: transparent;
-    cursor: pointer;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1662 */
-.x-tab-default-top {
-    margin: 0 4px 0 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1666 */
-.x-tab-default-top.x-rtl {
-    margin: 0 0 0 4px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1671 */
-.x-tab-default-top.x-tab-rotate-left {
-    margin: 0 0 0 4px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1675 */
-.x-tab-default-top.x-tab-rotate-left.x-rtl {
-    margin: 0 4px 0 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1693 */
-.x-tab-default-top.x-tab-focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1722 */
-.x-tab-default-top.x-tab-focus.x-tab-over {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1751 */
-.x-tab-default-top.x-tab-focus.x-tab-active {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1777 */
-.x-tab-default-right {
-    margin: 0 0 4px 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1781 */
-.x-tab-default-right.x-rtl {
-    margin: 0 0 4px 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1786 */
-.x-tab-default-right.x-tab-rotate-right {
-    margin: 4px 0 0 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1790 */
-.x-tab-default-right.x-tab-rotate-right.x-rtl {
-    margin: 4px 0 0 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1808 */
-.x-tab-default-right.x-tab-focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1837 */
-.x-tab-default-right.x-tab-focus.x-tab-over {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1866 */
-.x-tab-default-right.x-tab-focus.x-tab-active {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1892 */
-.x-tab-default-bottom {
-    margin: 0 4px 0 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1896 */
-.x-tab-default-bottom.x-rtl {
-    margin: 0 0 0 4px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1901 */
-.x-tab-default-bottom.x-tab-rotate-left {
-    margin: 0 0 0 4px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1905 */
-.x-tab-default-bottom.x-tab-rotate-left.x-rtl {
-    margin: 0 4px 0 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1923 */
-.x-tab-default-bottom.x-tab-focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1952 */
-.x-tab-default-bottom.x-tab-focus.x-tab-over {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1981 */
-.x-tab-default-bottom.x-tab-focus.x-tab-active {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2007 */
-.x-tab-default-left {
-    margin: 0 0 4px 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2011 */
-.x-tab-default-left.x-rtl {
-    margin: 0 0 4px 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2016 */
-.x-tab-default-left.x-tab-rotate-right {
-    margin: 4px 0 0 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2020 */
-.x-tab-default-left.x-tab-rotate-right.x-rtl {
-    margin: 4px 0 0 0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2038 */
-.x-tab-default-left.x-tab-focus {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2067 */
-.x-tab-default-left.x-tab-focus.x-tab-over {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2096 */
-.x-tab-default-left.x-tab-focus.x-tab-active {
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2122 */
-.x-tab-button-default {
-    height: 20px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2127 */
-.x-tab-inner-default {
-    font: 400 13px/20px 'Open Sans', 'Helvetica Neue', helvetica, arial, verdana, sans-serif;
-    color: #f0f0f0;
-    max-width: 100%;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2135 */
-.x-tab-bar-plain .x-tab-inner-default {
-    color: #606060;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2143 */
-.x-tab-icon-right > .x-tab-inner-default,
-.x-tab-icon-left > .x-tab-inner-default {
-    max-width: calc(100% - 20px);
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2151 */
-.x-tab-icon-el-default {
-    min-height: 20px;
-    background-position: center center;
-    font-size: 20px;
-    line-height: 20px;
-    color: #f0f0f0;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2152 */
-.x-tab-icon-left > .x-tab-icon-el-default,
-.x-tab-icon-right > .x-tab-icon-el-default {
-    width: 20px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2157 */
-.x-tab-icon-top > .x-tab-icon-el-default,
-.x-tab-icon-bottom > .x-tab-icon-el-default {
-    min-width: 20px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2168 */
-.x-tab-bar-plain .x-tab-icon-el-default {
-    color: #606060;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2173 */
-.x-tab-icon-el-default.x-tab-glyph {
-    opacity: 0.7;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2193 */
-.x-tab-text.x-tab-icon-left > .x-tab-icon-el-default {
-    margin-right: 6px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2197 */
-.x-tab-text.x-tab-icon-left > .x-tab-icon-el-default.x-rtl {
-    margin-right: 0;
-    margin-left: 6px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2204 */
-.x-tab-text.x-tab-icon-right > .x-tab-icon-el-default {
-    margin-left: 6px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2208 */
-.x-tab-text.x-tab-icon-right > .x-tab-icon-el-default.x-rtl {
-    margin-left: 0;
-    margin-right: 6px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2215 */
-.x-tab-text.x-tab-icon-top > .x-tab-icon-el-default {
-    margin-bottom: 6px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2219 */
-.x-tab-text.x-tab-icon-bottom > .x-tab-icon-el-default {
-    margin-top: 6px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2224 */
-.x-tab-focus.x-tab-default {
-    border-color: transparent;
-    background-color: transparent;
-    outline: 1px solid #5fa2dd;
-    outline-offset: -3px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:64 */
-.x-ie .x-tab-focus.x-tab-default,
-.x-ie10p .x-tab-focus.x-tab-default,
-.x-edge .x-tab-focus.x-tab-default {
-    outline: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:40 */
-.x-ie .x-tab-focus.x-tab-default:after,
-.x-ie10p .x-tab-focus.x-tab-default:after,
-.x-edge .x-tab-focus.x-tab-default:after {
-    position: absolute;
-    content: ' ';
-    top: 2px;
-    right: 2px;
-    bottom: 2px;
-    left: 2px;
-    border: 1px solid #5fa2dd;
-    pointer-events: none;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2320 */
-.x-tab-bar-plain .x-tab-focus.x-tab-default .x-tab-inner-default {
-    color: #606060;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2352 */
-.x-tab-bar-plain .x-tab-focus.x-tab-default .x-tab-icon-el {
-    color: #606060;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2360 */
-.x-tab-over.x-tab-default {
-    border-color: #000;
-    background-image: none;
-    background-color: rgba(0, 0, 0, 0.08);
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
-.x-ie8 .x-tab-over.x-tab-default {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";
-    zoom: 1;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2389 */
-.x-ie8 .x-tab-over.x-tab-default.x-tab-rotate-left {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2395 */
-.x-ie8 .x-tab-over.x-tab-default.x-tab-rotate-right {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2421 */
-.x-tab-bar-plain .x-tab-over.x-tab-default .x-tab-inner-default {
-    color: #606060;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2452 */
-.x-tab-bar-plain .x-tab-over.x-tab-default .x-tab-icon-el {
-    color: #606060;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2472 */
-.x-tab-focus.x-tab-over.x-tab-default {
-    border-color: #000;
-    background-image: none;
-    background-color: rgba(0, 0, 0, 0.08);
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/background-opacity.scss:19 */
-.x-ie8 .x-tab-focus.x-tab-over.x-tab-default {
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#14000000, endColorstr=#14000000)";
-    zoom: 1;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2501 */
-.x-ie8 .x-tab-focus.x-tab-over.x-tab-default.x-tab-rotate-left {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2507 */
-.x-ie8 .x-tab-focus.x-tab-over.x-tab-default.x-tab-rotate-right {
-    -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2533 */
-.x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-default .x-tab-inner-default {
-    color: #606060;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2564 */
-.x-tab-bar-plain .x-tab-focus.x-tab-over.x-tab-default .x-tab-icon-el {
-    color: #606060;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2587 */
-.x-tab.x-tab-active.x-tab-default {
-    border-color: #fff;
-    background-color: #fff;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2643 */
-.x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
-    color: #4c82b1;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2648 */
-.x-tab-bar-plain .x-tab.x-tab-active.x-tab-default .x-tab-inner-default {
-    color: #404040;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2663 */
-.x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #4c82b1;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2671 */
-.x-ie8 .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #82a7c8;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2677 */
-.x-tab-bar-plain .x-tab.x-tab-active.x-tab-default .x-tab-icon-el {
-    color: #404040;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2698 */
-.x-tab-focus.x-tab-active.x-tab-default {
-    border-color: #fff;
-    background-color: #fff;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2759 */
 .x-tab-bar-plain .x-tab-focus.x-tab-active.x-tab-default .x-tab-inner-default {
     color: #404040;
@@ -925,150 +585,6 @@
     padding-right: 0px;
     padding-left: 16px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-corners.gif), sides:url(images/tab/tab-default-top-focus-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-corners.gif), sides:url(images/tab/tab-default-right-focus-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-corners.gif), sides:url(images/tab/tab-default-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-corners.gif), sides:url(images/tab/tab-default-left-focus-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-over-corners.gif), sides:url(images/tab/tab-default-top-over-sides.gif), frame-bg:url(images/tab/tab-default-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-over-corners.gif), sides:url(images/tab/tab-default-right-over-sides.gif), frame-bg:url(images/tab/tab-default-right-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-over-corners.gif), sides:url(images/tab/tab-default-bottom-over-sides.gif), frame-bg:url(images/tab/tab-default-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-over-corners.gif), sides:url(images/tab/tab-default-left-over-sides.gif), frame-bg:url(images/tab/tab-default-left-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-active-corners.gif), sides:url(images/tab/tab-default-top-active-sides.gif), frame-bg:url(images/tab/tab-default-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-active-corners.gif), sides:url(images/tab/tab-default-right-active-sides.gif), frame-bg:url(images/tab/tab-default-right-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-active-corners.gif), sides:url(images/tab/tab-default-bottom-active-sides.gif), frame-bg:url(images/tab/tab-default-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-active-corners.gif), sides:url(images/tab/tab-default-left-active-sides.gif), frame-bg:url(images/tab/tab-default-left-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-over-corners.gif), sides:url(images/tab/tab-default-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-over-corners.gif), sides:url(images/tab/tab-default-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-over-corners.gif), sides:url(images/tab/tab-default-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-over-corners.gif), sides:url(images/tab/tab-default-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-active-corners.gif), sides:url(images/tab/tab-default-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-active-corners.gif), sides:url(images/tab/tab-default-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-active-corners.gif), sides:url(images/tab/tab-default-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-active-corners.gif), sides:url(images/tab/tab-default-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-disabled-corners.gif), sides:url(images/tab/tab-default-top-disabled-sides.gif), frame-bg:url(images/tab/tab-default-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-disabled-corners.gif), sides:url(images/tab/tab-default-right-disabled-sides.gif), frame-bg:url(images/tab/tab-default-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-disabled-corners.gif), sides:url(images/tab/tab-default-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-default-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-disabled-corners.gif), sides:url(images/tab/tab-default-left-disabled-sides.gif), frame-bg:url(images/tab/tab-default-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Bar.scss:168 */
 .x-tab-bar-default {
     background-color: #5fa2dd;
@@ -1291,30 +807,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Bar.scss:586 */
 .x-box-scroller-tab-bar-default .x-ie8 .x-box-scroller-plain {
     background-color: #fff;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/toolbar/Breadcrumb.scss:162 */
 .x-breadcrumb-btn-default {
@@ -1771,12 +1263,6 @@
 .x-btn-plain-toolbar-small-mc {
     padding: 7px 7px 7px 7px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-plain-toolbar-small {
     border-color: transparent;
@@ -2221,42 +1707,6 @@
     border-width: 1px;
     border-color: #5fa2dd;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-over-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-over-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-pressed-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-pressed-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-small-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-disabled-sides.gif)" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/button/Button.scss:1257 */
 .x-button-plain-toolbar-small-cell > .x-grid-cell-inner {
     padding-top: 0px;
@@ -2353,12 +1803,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-plain-toolbar-medium-mc {
     padding: 8px 8px 8px 8px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-plain-toolbar-medium {
@@ -2804,42 +2248,6 @@
     border-width: 1px;
     border-color: #5fa2dd;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-over-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-over-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-pressed-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-disabled-sides.gif)" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/button/Button.scss:1257 */
 .x-button-plain-toolbar-medium-cell > .x-grid-cell-inner {
     padding-top: 0;
@@ -2936,12 +2344,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-btn-plain-toolbar-large-mc {
     padding: 9px 9px 9px 9px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:1px 1px 1px 1px" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-plain-toolbar-large {
@@ -3387,42 +2789,6 @@
     border-width: 1px;
     border-color: #5fa2dd;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-over-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-over-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-pressed-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-pressed-sides.gif)" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:2px 2px 2px 2px, corners:url(images/btn/btn-plain-toolbar-large-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-disabled-sides.gif)" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/button/Button.scss:1257 */
 .x-button-plain-toolbar-large-cell > .x-grid-cell-inner {
     padding-top: 0;
@@ -3617,30 +2983,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/panel/Panel.scss:755 */
 .x-panel .x-panel-header-light-collapsed-border-left {
     border-right-width: 1px !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/panel/Panel.scss:791 */
 .x-panel-header-light-horizontal .x-tool-after-title {
@@ -4068,12 +3410,6 @@
 .x-panel-light-framed-mc {
     padding: 0px 0px 0px 0px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-light-framed:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel/panel-light-framed-corners.gif), sides:url(images/panel/panel-light-framed-sides.gif)" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-top {
     -moz-border-radius-topleft: 0;
@@ -4185,12 +3521,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-top-mc {
     padding: 10px 14px 10px 14px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 0 2px, corners:url(images/panel-header/panel-header-light-framed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-top-sides.gif)" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-right {
@@ -4318,12 +3648,6 @@
 .x-panel-header-light-framed-right-mc {
     padding: 14px 10px 14px 10px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 0, corners:url(images/panel-header/panel-header-light-framed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-right-sides.gif)" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-bottom {
     -moz-border-radius-topleft: 0;
@@ -4435,12 +3759,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-bottom-mc {
     padding: 10px 14px 10px 14px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-bottom-sides.gif)" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-left {
@@ -4568,12 +3886,6 @@
 .x-panel-header-light-framed-left-mc {
     padding: 14px 10px 14px 10px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 0 2px 2px, corners:url(images/panel-header/panel-header-light-framed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-left-sides.gif)" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-top {
     -moz-border-radius-topleft: 0;
@@ -4685,12 +3997,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-collapsed-top-mc {
     padding: 10px 14px 10px 14px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-top-sides.gif)" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-right {
@@ -4818,12 +4124,6 @@
 .x-panel-header-light-framed-collapsed-right-mc {
     padding: 14px 10px 14px 10px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-right-sides.gif)" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-bottom {
     -moz-border-radius-topleft: 0;
@@ -4935,12 +4235,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-collapsed-bottom-mc {
     padding: 10px 14px 10px 14px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif)" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-left {
@@ -5067,12 +4361,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-panel-header-light-framed-collapsed-left-mc {
     padding: 14px 10px 14px 10px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:2px 2px 2px 2px, corners:url(images/panel-header/panel-header-light-framed-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-left-sides.gif)" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/panel/Panel.scss:643 */
 .x-panel .x-panel-header-light-framed-top {
@@ -8357,12 +7645,6 @@
 .x-tab-navigation-top-mc {
     padding: 24px 24px 24px 24px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-bottom {
     -moz-border-radius-topleft: 0;
@@ -8457,12 +7739,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-bottom-mc {
     padding: 24px 24px 24px 24px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-left {
@@ -8559,12 +7835,6 @@
 .x-tab-navigation-left-mc {
     padding: 24px 24px 24px 24px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-right {
     -moz-border-radius-topleft: 0;
@@ -8659,12 +7929,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-right-mc {
     padding: 24px 24px 24px 24px;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1603 */
 .x-tab-navigation {
@@ -9587,150 +8851,6 @@
     padding-right: 0px;
     padding-left: 16px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-corners.gif), sides:url(images/tab/tab-navigation-top-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-corners.gif), sides:url(images/tab/tab-navigation-right-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-corners.gif), sides:url(images/tab/tab-navigation-left-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-over-corners.gif), sides:url(images/tab/tab-navigation-top-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-over-corners.gif), sides:url(images/tab/tab-navigation-right-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-over-corners.gif), sides:url(images/tab/tab-navigation-left-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-active-corners.gif), sides:url(images/tab/tab-navigation-top-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-active-corners.gif), sides:url(images/tab/tab-navigation-right-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-active-corners.gif), sides:url(images/tab/tab-navigation-left-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-over-corners.gif), sides:url(images/tab/tab-navigation-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-over-corners.gif), sides:url(images/tab/tab-navigation-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-over-corners.gif), sides:url(images/tab/tab-navigation-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-active-corners.gif), sides:url(images/tab/tab-navigation-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-active-corners.gif), sides:url(images/tab/tab-navigation-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-active-corners.gif), sides:url(images/tab/tab-navigation-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-disabled-corners.gif), sides:url(images/tab/tab-navigation-top-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-disabled-corners.gif), sides:url(images/tab/tab-navigation-right-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-disabled-corners.gif), sides:url(images/tab/tab-navigation-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-disabled-corners.gif), sides:url(images/tab/tab-navigation-left-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/tab/Bar.scss:168 */
 .x-tab-bar-navigation {
     background-color: #404040;
@@ -9954,30 +9074,6 @@
 .x-box-scroller-tab-bar-navigation .x-ie8 .x-box-scroller-plain {
     background-color: #fff;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
-}
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/panel/Panel.scss:276 */
 .x-panel-navigation {
     border-color: #5fa2dd;
@@ -10120,30 +9216,6 @@
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/panel/Panel.scss:755 */
 .x-panel .x-panel-header-navigation-collapsed-border-left {
     border-right-width: 1px !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* C:/Users/s.shumilkin/Desktop/TechShopApp/ext/classic/theme-neutral/sass/src/panel/Panel.scss:791 */
 .x-panel-header-navigation-horizontal .x-tool-after-title {
@@ -10505,29 +9577,50 @@
 .searchField {
     display: flex;
     width: 100%;
-    height: 100%;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     border: 1px lightgrey solid;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:171 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:169 */
+.searchField .x-form-trigger {
+    align-self: stretch;
+    width: 37.2px;
+    background: transparent;
+    margin: -1px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:181 */
 .searchField .x-form-text-wrap {
     flex: 1;
-    background-color: #e1e1e1;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:176 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:185 */
 .dataview-item:hover {
     box-shadow: 1px 1px 25px 10px orange;
     cursor: pointer;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:180 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:189 */
 .itemName {
     color: #151528;
     text-decoration: none;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:184 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:193 */
+.priceTagDisc {
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    color: red;
+    font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+    animation: neon 1s ease-in-out infinite alternate;
+    text-shadow: 1px 1px 2px red;
+}
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:202 */
 .priceTag {
     font-size: 24px;
     font-weight: bold;
@@ -10535,7 +9628,7 @@
     color: #151528;
     font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:191 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:209 */
 .priceDiv {
     display: flex;
     align-items: center;
@@ -10544,7 +9637,7 @@
     flex-wrap: nowrap;
     align-content: flex-start;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:199 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:219 */
 .priceRubble {
     font-weight: bold;
     margin-left: 4px;
@@ -10552,7 +9645,16 @@
     font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
     color: #151528;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:206 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:226 */
+.priceRubbleDisc {
+    text-shadow: 1px 1px 2px red;
+    font-weight: bold;
+    margin-left: 4px;
+    font-size: 24px;
+    font-family: "PT Sans", "Helvetica", "Arial", sans-serif;
+    color: red;
+}
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:234 */
 .cartButton {
     display: inline-flex;
     align-items: center;
@@ -10570,12 +9672,12 @@
     min-width: 20px;
     min-height: 20px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:223 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:251 */
 .priceTagSale {
     color: red;
     font-size: 24px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:227 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:255 */
 .dataview-item {
     flex: 1;
     min-width: 250px;
@@ -10592,7 +9694,7 @@
     align-items: stretch;
     flex-wrap: wrap;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:244 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:272 */
 .categoryList {
     flex: 1;
     margin: 24px 24px 0 24px;
@@ -10600,24 +9702,24 @@
     padding: 10px;
     border: 1px lightgrey solid;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:252 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:280 */
 .categoryTitle {
     margin: 5px 0 0 5px;
     font-weight: bold;
     font-size: 16px;
     padding: 5px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:258 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:286 */
 .categoryItem:hover a {
     color: red;
     cursor: pointer;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:262 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:290 */
 .categoryItem:hover {
     opacity: 0.9;
     cursor: pointer;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:266 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:294 */
 .categoryItem a {
     text-decoration: none;
     word-break: break-word;
@@ -10629,11 +9731,11 @@
     margin: -2px 0;
     padding: 4px 0;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:278 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:306 */
 .searchField:focus {
     border: 1px orange solid;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:281 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:309 */
 .categoryDesc {
     font-size: 14px;
     float: left;
@@ -10641,33 +9743,33 @@
     font-weight: 400;
     font-family: Roboto, sans-serif;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:288 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:316 */
 .descrTop {
     padding: 24px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:293 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:321 */
 .panelBorder .x-panel-bodyWrap {
     border: lightgrey 1px solid;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:297 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:325 */
 .searchField:focus-within {
     border: 1px orange solid;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:301 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:329 */
 .searchField:focus-within div {
-    background-color: orange;
+    background: orange;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:305 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:333 */
 .linkOrange {
     text-decoration: none;
     color: grey;
     font-weight: bold;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:311 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:339 */
 .linkOrange:hover {
     color: orange;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:315 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:343 */
 .cartOrange a span {
     color: rgba(0, 0, 0, 0.66);
     display: inline-block;
@@ -10676,18 +9778,16 @@
     padding-bottom: 15px;
     padding-left: 8px;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:325 */
-.cartOrange:hover a span img {
-    width: 26px;
-    height: 26px;
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:353 */
+.cartOrange:hover {
+    transform: scale(1.2);
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:330 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:356 */
 .cartOrange:hover a span {
     color: orange;
-    font-size: 16px;
     font-weight: bolder;
 }
-/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:336 */
+/* C:/Users/s.shumilkin/Desktop/TechShopApp/apps/TechShopApp/sass/src/view/ToolBarTop.scss:361 */
 .searchFieldTxt div input {
     font-weight: 500;
     padding: 10px 15px 8px 10px;

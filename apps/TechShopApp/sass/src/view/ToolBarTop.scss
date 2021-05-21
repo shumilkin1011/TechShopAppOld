@@ -159,7 +159,6 @@
 .searchField {
   display: flex;
   width: 100%;
-  height: 100%;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
@@ -167,10 +166,20 @@
   border: 1px lightgrey solid;
 
 }
-
+.searchField .x-form-trigger{
+  align-self: stretch;
+  width: 37.2px;
+  background: transparent;
+  margin: -1px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 .searchField .x-form-text-wrap {
   flex:1;
-  background-color: #e1e1e1;
 }
 
 .dataview-item:hover {
@@ -180,6 +189,15 @@
 .itemName{
   color: #151528;
   text-decoration: none;
+}
+.priceTagDisc{
+  font-size: 24px;
+  font-weight: bold;
+  float: left;
+  color: red;
+  font-family: "PT Sans","Helvetica","Arial",sans-serif;
+  animation: neon 1s ease-in-out infinite alternate;
+  text-shadow: 1px 1px 2px red;
 }
 .priceTag{
   font-size: 24px;
@@ -195,13 +213,23 @@
   flex-direction: row;
   flex-wrap: nowrap;
   align-content: flex-start;
+
 }
+
 .priceRubble{
   font-weight: bold;
   margin-left: 4px;
   font-size: 24px;
   font-family: "PT Sans","Helvetica","Arial",sans-serif;
   color: #151528;
+}
+.priceRubbleDisc{
+  text-shadow: 1px 1px 2px red;
+  font-weight: bold;
+  margin-left: 4px;
+  font-size: 24px;
+  font-family: "PT Sans","Helvetica","Arial",sans-serif;
+  color: red;
 }
 .cartButton{
   display: inline-flex;
@@ -299,7 +327,7 @@
 }
 
 .searchField:focus-within div {
-  background-color: orange;
+  background: orange;
 }
 
 .linkOrange {
@@ -322,14 +350,11 @@
 
 }
 
-.cartOrange:hover a span img {
-  width: 26px;
-  height: 26px;
+.cartOrange:hover{
+  transform: scale(1.2);
 }
-
 .cartOrange:hover a span {
   color: orange;
-  font-size: 16px;
   font-weight: bolder;
 }
 

@@ -14,42 +14,18 @@ Ext.define('TechShopApp.view.ItemList', {
 
     scrollable: null,
     emptyText: 'No Items Available.',
-    store: Ext.create('Ext.data.Store', {
-        autoLoad: true,
-        storeId: 'item-store',
-        fields: ['item, img ,decr'],
-        data: [
-            {
-                "item": 'МФУ струйный CANON PIXMA MG2540S, черный',
-                "img": 'https://items.s1.citilink.ru/1093354_v01_b.jpg',
-                "desc": 'decription'
-            }, {
-                "item": 'name',
-                "img": 'https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/Bang/Bang_Armed_Dangerous/Bang_vooruzhen_opasen00-209x273.jpg',
-                "desc": 'decription'
-            }, {
-                "item": 'name',
-                "img": 'https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/Bang/Bang_Armed_Dangerous/Bang_vooruzhen_opasen00-209x273.jpg',
-                "desc": 'decription'
-            }, {
-                "item": 'name',
-                "img": 'https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/Bang/Bang_Armed_Dangerous/Bang_vooruzhen_opasen00-209x273.jpg',
-                "desc": 'decription'
-            }, {
-                "item": 'name',
-                "img": 'https://hobbygames.cdnvideo.ru/image/cache/hobbygames_beta/data/HobbyWorld/Bang/Bang_Armed_Dangerous/Bang_vooruzhen_opasen00-209x273.jpg',
-                "desc": 'decription'
-            }
-        ]
-    }),
+    store: {
+        type: 'product',
+        autoLoad: true
+    },
     tpl: [
         '<tpl for=".">',
         '<div class="dataview-item">',
         '<img style="align-self: center;" width="150" height="150" alt="img" src={img}>',
-        '<div class="itemId"hidden>secret</div>',
-        '<p class="itemName" style="font-size: 16px;padding-top: 10px;margin-top: 20px">{item}</p>',
+        '<div class="itemId"hidden>{id}</div>',
+        '<p class="itemName" style="font-size: 16px;padding-top: 10px;margin-top: 20px">{name}</p>',
         '<div class="priceDiv">',
-        '<div style="float: left;margin-left: 15px"><span class = "priceTag">1666</span><span class="priceRubble">&#8381</span></div>',
+        '<div style="float: left;margin-left: 15px"><span class = {[Boolean(values.isDiscount) ? "priceTagDisc" : "priceTag"]}>{[Number(values.price).toLocaleString()]}</span><span class={[Boolean(values.isDiscount) ? "priceRubbleDisc" : "priceRubble"]}>&#8381</span></div>',
         '<div style="float: right;margin-right: 15px"><span ><button type="button" class="btn btn-outline-warning">Купить</button></span></div>',
         '</div>',
         '</div>',
